@@ -45,8 +45,11 @@ class linkedList:
             return
         print("The list is empty :[")
         
-Linked_List = linkedList()
-for i in range(15):
-    Linked_List.insert(i)
-Linked_List.treverse()
+    
+    
+if __name__ == "__main__": 
+    Linked_List = linkedList()
+    for i in range(15):
+        Linked_List.insert(i)
+    Linked_List.treverse()
 
