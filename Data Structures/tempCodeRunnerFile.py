@@ -1,1 +1,8 @@
-if __name__ == "__main__":
+    q = LinkedQueue()
+    q.enqueue(10)
+    q.enqueue(20)
+    q.enqueue(30)
+    q.display()
+    q.dequeue()
+    q.display()
+    q.peek()
